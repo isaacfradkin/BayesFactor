@@ -257,7 +257,7 @@ rpriorValues <- function(modelType,effectType=NULL,priorType=NULL){
         wide=1/sqrt(3),
         medium=1/3,
         medium.narrow = 1/sqrt(27),
-        stop("Unknown prior type.")
+        priorType        
         )
       )
    }
